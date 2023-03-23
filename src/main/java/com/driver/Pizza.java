@@ -32,7 +32,7 @@ public class Pizza {
         isPaperBagAdded = false;
 
         totalPrice = basePrice;
-        bill = "Base Price Of The Pizza: "+ basePrice+"\n";
+        bill = "Base Price Of The Pizza: " + basePrice+ "\n";
     }
 
     public int getPrice(){
@@ -81,7 +81,7 @@ public class Pizza {
             }
 
             bill = bill+"Total Price: "+totalPrice + "\n";
-            isBillGenerated=true;
+            isBillGenerated = true;
         }
         return bill;
     }
